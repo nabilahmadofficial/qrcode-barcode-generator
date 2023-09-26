@@ -19,14 +19,6 @@ The QR Code and Barcode Generator is a web application designed to simplify the 
 - JsBarcode Library
 - QRCode.js Library
 
-<h5>Getting Started </h5>
-
-To get started with this project, follow these steps:
-
-1. **Clone the Repository**: git clone https://github.com/your-username/qr-code-and-barcode-generator.git
-2. **Navigate to the Project Folder**: cd qrcode-barcode-generator
-3. **Open the HTML File**: Use your preferred code editor (e.g., Visual Studio Code, Sublime Text) to open the `index.html` file in the project folder.
-
 <h5>Usage</h5>
 
 1. **Run the Application**: Open the `index.html` file in your web browser. You can simply double-click the file or use a local development server.
@@ -34,6 +26,7 @@ To get started with this project, follow these steps:
 3. **View the Generated Codes**: The generated QR code and barcode will be displayed on the right side of the page.
 
 <h5>Contributing</h5>
+
 Contributions to this project are welcome. Feel free to open issues or pull requests if you have any improvements or bug fixes.
 
 
