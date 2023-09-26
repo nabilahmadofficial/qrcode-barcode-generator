@@ -1,44 +1,31 @@
 /* Add your custom styles here */
 body {
-    background-color: #f0f0f0;
+    background-color: #f8f9fa;
     font-family: jost, sans-serif;
 }
 
 .container-fluid {
     background-color: #f7f7f7;
-    padding: 20px 0;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
 }
 
 .container {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin-top: 20px;
+    width: 100% !important;
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+    margin-top: 70px;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.col-md-6 {
-    padding: 0 10px;
-}
 
 .card {
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 100%;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
 }
 
 .card-body {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 30px;
 }
 
 .card-title {
@@ -61,20 +48,18 @@ body {
     background-color: #0056b3;
     border-color: #0056b3;
 }
-
+/* Stylize the QR code and barcode */
 #output {
     text-align: center;
     margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-/* Stylize the QR code and barcode */
+/* Add spacing between QR code and barcode */
 #output canvas {
+    margin: 20px auto; /* Adjust the margin to your preference */
+    display: block;
     max-width: 100%;
     height: auto;
-    border: 1px solid #ddd;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
